@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+/* Header styles */
+header {
+    background-color: #0099cc; /* Soft blue header */
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    color: white;
+    margin: 0;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #004d66; /* Darker blue for navbar */
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    background-color: #006699; /* Hover effect */
+    border-radius: 5px;
+}
+
+.logout {
+    background-color: #ff4d4d; /* Red color for logout */
+}
+
+.logout:hover {
+    background-color: #cc3333; /* Darker red on hover */
+}
+
+/* Introduction section */
+.intro {
+    text-align: center;
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for intro */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
